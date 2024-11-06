@@ -1,0 +1,75 @@
+/* Navbar container */
+.navbar {
+  background-color: #1e1e2e;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+/* Links container */
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Link styling */
+.navbar-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for links */
+.navbar-links a:hover {
+  color: #f39c12;
+}
+
+/* Active link indicator */
+.navbar-links a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #f39c12;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.navbar-links a:hover::after {
+  width: 100%;
+}
+
+/* Account button container */
+.account-button {
+  margin-left: auto;
+}
+
+/* Circular button with user initial */
+.account-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f39c12;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for account circle */
+.account-circle:hover {
+  background-color: #e67e22;
+}
+
+  

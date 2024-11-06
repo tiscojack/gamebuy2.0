@@ -1,0 +1,111 @@
+/* WalletPage.css */
+
+/* Container principale della pagina */
+.wallet-page {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Titoli della pagina */
+.wallet-page h1 {
+  font-size: 3rem;
+  color: #ff6b6b;
+  margin-bottom: 2rem;
+}
+
+.wallet-page h2 {
+  font-size: 2rem;
+  color: #4b6584;
+  margin-bottom: 1.5rem;
+}
+
+/* Sezione Archivio Punti */
+.points-archive {
+  margin-bottom: 3rem;
+}
+
+.store-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.store-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.store-card:hover {
+  transform: scale(1.05);
+}
+
+.store-card h3 {
+  color: #ff6b6b;
+  font-size: 1.5rem;
+}
+
+.store-card p {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+/* Sezione Transazioni */
+.transactions-list {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 3rem;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.transaction-item p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Sezione Conversione */
+.points-conversion {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.points-conversion select {
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.convert-button {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 0.75rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.convert-button:hover {
+  background-color: #ff4757;
+}
+
+  

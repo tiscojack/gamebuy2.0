@@ -1,0 +1,91 @@
+/* WalletPage.css */
+
+.wallet-container {
+    text-align: center;
+    background-color: #eddcdc;
+    padding: 20px;
+    border: 3px solid #0d0d0d;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .account {
+    display: inline-block;
+    background-color: #f1820a;
+    padding: 1px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, background-color 0.3s;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .account:hover {
+    box-shadow: 0px 8px 16px rgba(10, 10, 10, 0.2);
+    background-color: #60f555;
+  }
+  
+  .visa-dati {
+    background-color: #2441d5;
+    padding: 40px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 38px;
+    border-radius: 15px;
+  }
+  
+  .instruction {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-moneta, .btn-aggiungi {
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: box-shadow 0.3s, background-color 0.3s;
+    color: black;
+  }
+  
+  .btn-moneta {
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-moneta:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #f5f5f5;
+  }
+  
+  .btn-aggiungi {
+    background-color: #fff7af;
+    border: 2px solid #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-aggiungi:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #ffe066;
+  }
+  

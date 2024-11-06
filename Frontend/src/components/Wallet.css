@@ -1,0 +1,52 @@
+/* Wallet.css */
+
+/* Wallet container */
+.wallet-container {
+    background-color: #f8f8f8;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Wallet balance display */
+  .wallet-balance {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1e1e2e;
+    margin-bottom: 1rem;
+  }
+  
+  /* Coin icon */
+  .wallet-balance img {
+    width: 50px;
+    vertical-align: middle;
+  }
+  
+  /* Label for balance */
+  .wallet-label {
+    font-size: 1rem;
+    color: #666666;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Button to redeem or check details */
+  .wallet-button {
+    background-color: #f39c12;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  .wallet-button:hover {
+    background-color: #e67e22; /* Intensifica il colore quando si passa sopra */
+  }
+  

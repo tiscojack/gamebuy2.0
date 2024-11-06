@@ -1,0 +1,128 @@
+/* ChallengePage.css */
+
+/* Container principale */
+.challenge-page {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Sezione di introduzione */
+  .challenge-intro {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .challenge-intro h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #ff6b6b;
+    margin-bottom: 1.5rem;
+  }
+  
+  .challenge-intro p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 700px;
+  }
+  
+  /* Impostazione sfida */
+  .challenge-setup {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  /* Riga della sfida */
+  .challenge-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Bottoni dei giochi */
+  .game-buttons, .shop-buttons, .mode-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .game-button, .shop-button, .mode-button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .game-button:hover, .shop-button:hover, .mode-button:hover {
+    background-color: #ff4757;
+  }
+  
+  .selected {
+    background-color: #ff4757;
+  }
+  
+  /* Casella per inserire i punti */
+  input[type="number"] {
+    padding: 0.75rem;
+    font-size: 1rem;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-right: 1rem;
+  }
+  
+  /* Pulsante per generare il link */
+  .generate-link-button {
+    background-color: #4b6584;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .generate-link-button:hover {
+    background-color: #34495e;
+  }
+  
+  /* Link sfida generato */
+  .challenge-link {
+    margin-top: 1rem;
+  }
+  
+  .challenge-link a {
+    color: #ff6b6b;
+    text-decoration: none;
+  }
+  
+  .challenge-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Pulsante WhatsApp */
+  .whatsapp-share-button {
+    background-color: #25D366;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .whatsapp-share-button:hover {
+    background-color: #1ebe57;
+  }
+  
